@@ -17,6 +17,8 @@ function Vagas() {
                     key={vaga.id}
                     empresa={vaga.empresa}
                     cargo={vaga.cargo}
+                    area={vaga.area}
+                    sobre={vaga.sobre}
                     salario={vaga.salario}
                     modelo={vaga.modelo}
                     tempo={vaga.tempo}

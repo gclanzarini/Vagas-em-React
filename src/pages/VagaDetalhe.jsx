@@ -1,5 +1,9 @@
 import { useParams } from "react-router";
 import vagalist from "../data/vagas";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import DetalhesVaga from "../components/DetalhesVaga";
+
 function VagaDetalhe(){
     const {id} = useParams();
     const vagaLoop = vagalist.filter(item=>{
@@ -14,17 +18,19 @@ function VagaDetalhe(){
         )
     }
 
+
     const vagaSelecionada = vagaLoop[0];
 
       return (
-        <div>
-            <h1>Detalhes da Vaga {id} </h1>
-            <h2>{vagaSelecionada.cargo}</h2>
-            <h3>{vagaSelecionada.empresa}</h3>
-            <p>{vagaSelecionada.area}</p>
-            <p>{vagaSelecionada.modelo}</p>
-            <p> R$ {vagaSelecionada.salario}</p>
+        <div>   
+            <Header />  
 
+        <div>
+            <DetalhesVaga />
+
+        
+            <Footer />
+        </div>
         </div>
     )
 }

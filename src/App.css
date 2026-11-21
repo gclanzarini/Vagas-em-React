@@ -225,3 +225,54 @@ footer{
     background-color: red; 
     border-radius: 6px;
 }
+
+.Detalhes_vaga{
+    padding: 0 50px  50px 50px;
+}
+
+.Detalhes_vaga_voltar{
+    padding: 50px 0;
+}
+
+.Detalhes_vaga_main{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.Detalhes_vaga_informacoes{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+.Detalhes_vaga_sobre{
+    margin: 40px 0;
+    border: 1px solid #929090;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Detalhes_vagas_icon{
+    display: flex;
+    gap: 10px
+}
+
+.Detalhes_vagas_icones{
+
+    width: 15px;
+    height: 15px;
+}
+
+.Detalhes_vaga_btn{
+    background-color: #111111;
+    height: fit-content;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
