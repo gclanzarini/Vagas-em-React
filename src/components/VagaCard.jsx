@@ -12,7 +12,7 @@
    
    <div className="card">
                     <div className="card__avatar">
-                        v
+                        <p>{empresa.charAt(0)}</p>
                     </div>
                     <div className="card__text">
                         <p>{empresa}</p>
