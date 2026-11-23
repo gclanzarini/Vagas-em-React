@@ -135,20 +135,15 @@ footer{
 .card__avatar--grey{
     background-color: #dddddd;
     color: #333333;
-
-
-
 }
 
 .card__text{
-
     padding: 16px 0;
 }
 
 .card__text{
     flex-grow: 1;
     padding: 0 16px;
-
 }
 
 .card__badge{
@@ -160,22 +155,18 @@ footer{
 
 .card__title{
     padding: 4px 0 16px 0;
-
 }
 
 .card__actions{
     display: flex;
     flex-direction: column;
     align-items: end;
-
-
 }
 
 @media (max-width: 768px){
     asside{
         display: none;
     }
-
 
     .conteudo__header,
     .card{
@@ -275,4 +266,11 @@ footer{
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.card__informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
 }

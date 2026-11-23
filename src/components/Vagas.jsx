@@ -7,7 +7,7 @@ function Vagas() {
         <main>
             <div className="conteudo__header">
                 <h2>Últimas vagas</h2>
-                <span>7 vagas - atualizado agora</span>
+                <span>{vagalist.length} vagas - atualizado agora</span>
             </div>
 
          {
@@ -18,6 +18,9 @@ function Vagas() {
                     empresa={vaga.empresa}
                     cargo={vaga.cargo}
                     area={vaga.area}
+                    tipo={vaga.tipo}
+                    areaFiltro={vaga.areaFiltro}
+                    localização={vaga.localização}
                     sobre={vaga.sobre}
                     salario={vaga.salario}
                     modelo={vaga.modelo}
@@ -25,8 +28,6 @@ function Vagas() {
                 />
             ))
          }
-
-
 
 
         </main>

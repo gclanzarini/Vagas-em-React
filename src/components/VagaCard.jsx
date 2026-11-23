@@ -17,9 +17,11 @@
                     <div className="card__text">
                         <p>{empresa}</p>
                         <h3>{cargo}</h3>
+
+                    <div className="card__informacoes">
                         <span className="salaro">{salario}</span>
-                        <span>{modelo}</span>
-                        <span>{tempo}</span>
+                        <span>{modelo} · {tempo}</span>
+                        </div>
                     </div>
                     <div className="card__actions">
 
