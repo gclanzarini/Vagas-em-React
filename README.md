@@ -2,7 +2,7 @@
 
 Sistema de vagas de emprego desenvolvido em React para a disciplina de Front-End.
 
-## Grupo: Gabriel Lanzarini, Katrini dos Santos e [Maria Luiza]
+## Grupo: Gabriel Lanzarini, Katrini dos Santos e Maria Luiza
 
 ## Sobre o projeto
 
